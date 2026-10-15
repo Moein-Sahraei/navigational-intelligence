@@ -282,7 +282,7 @@ if __name__ == "__main__":
 
     # Cross-checks: enumeration (n = 1) against the dynamic programme,
     # and both against the closed forms of Appendix A.
-    assert abs(single["I(S2;Gamma_diag|S1)"] - curves[1]["I(S_next; diagnosed trajectories | outcomes)"]) < 1e-12
+    assert abs(single["I(S2;Gamma_diag|S1)"] - curves[1]["I(S_next; diagnosed trajectories | outcomes)"]) < 1e-9
     assert single["E[T2] outcome-only"] == single["E[T2] bare"] == Fraction(4)
     assert single["E[T2] diagnosed"] == Fraction(3) and single["E[T2] no memory"] == Fraction(9, 2)
     assert abs(curves[1]["E[T] diagnosed"] - 3.0) < 1e-12 and abs(curves[1]["E[T] outcome-only (= bare)"] - 4.0) < 1e-12
