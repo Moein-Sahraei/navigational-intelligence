@@ -1,0 +1,115 @@
+{
+  "K": 8,
+  "m": 4,
+  "single_problem": {
+    "H(F|S1)": 6.082238840445333,
+    "H(F,T|S1)": 9.133262893888078,
+    "E[log2|F|!] (order term)": 4.608484588970973,
+    "DeltaI_bare = H(Gamma_bare|S1)": 10.690723429416305,
+    "DeltaI_diag = H(Gamma_diag|S1)": 13.74174748285905,
+    "H(S2)": 3.0,
+    "H(S2|S1)": 2.9167943160023357,
+    "I(S2;Gamma_bare|S1)": 8.881784197001252e-16,
+    "I(S2;Gamma_diag|S1)": 0.514968703164377,
+    "I(S2;S1) (outcome-only information)": 0.08320568399766426,
+    "E[T2] no memory": 4.5,
+    "E[T2] outcome-only": 4.0,
+    "E[T2] bare": 4.0,
+    "E[T2] diagnosed": 3.0
+  },
+  "archive": [
+    {
+      "n": 0,
+      "E[T] outcome-only (= bare)": 4.5,
+      "E[T] diagnosed": 4.5,
+      "H(S_next | outcomes)": 3.0,
+      "H(S_next | outcomes, diagnosed trajectories)": 3.0,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.0
+    },
+    {
+      "n": 1,
+      "E[T] outcome-only (= bare)": 4.0,
+      "E[T] diagnosed": 3.0,
+      "H(S_next | outcomes)": 2.916794316002336,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.4018256128379587,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.5149687031643775
+    },
+    {
+      "n": 2,
+      "E[T] outcome-only (= bare)": 3.625,
+      "E[T] diagnosed": 2.625,
+      "H(S_next | outcomes)": 2.823559516771018,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.139811236498927,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.6837482802720909
+    },
+    {
+      "n": 3,
+      "E[T] outcome-only (= bare)": 3.34375,
+      "E[T] diagnosed": 2.53125,
+      "H(S_next | outcomes)": 2.7207511069736614,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.0429267102061672,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.6778243967674942
+    },
+    {
+      "n": 4,
+      "E[T] outcome-only (= bare)": 3.1328125,
+      "E[T] diagnosed": 2.5078125,
+      "H(S_next | outcomes)": 2.6008789598056365,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.01215155904502,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.5887274007606167
+    },
+    {
+      "n": 5,
+      "E[T] outcome-only (= bare)": 2.974609375,
+      "E[T] diagnosed": 2.501953125,
+      "H(S_next | outcomes)": 2.4830107583613454,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.0032838065100718,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.4797269518512737
+    },
+    {
+      "n": 6,
+      "E[T] outcome-only (= bare)": 2.85595703125,
+      "E[T] diagnosed": 2.50048828125,
+      "H(S_next | outcomes)": 2.3789822689544238,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.0008637035228514,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.3781185654315724
+    },
+    {
+      "n": 7,
+      "E[T] outcome-only (= bare)": 2.7669677734375,
+      "E[T] diagnosed": 2.5001220703125,
+      "H(S_next | outcomes)": 2.292735909539989,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.0002234624742306,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.2925124470657585
+    },
+    {
+      "n": 8,
+      "E[T] outcome-only (= bare)": 2.700225830078125,
+      "E[T] diagnosed": 2.500030517578125,
+      "H(S_next | outcomes)": 2.2238358130001936,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.00005721524332,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.2237785977568736
+    },
+    {
+      "n": 9,
+      "E[T] outcome-only (= bare)": 2.6501693725585938,
+      "E[T] diagnosed": 2.5000076293945312,
+      "H(S_next | outcomes)": 2.170027369406025,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.0000145488997445,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.17001282050628053
+    },
+    {
+      "n": 10,
+      "E[T] outcome-only (= bare)": 2.6126270294189453,
+      "E[T] diagnosed": 2.500001907348633,
+      "H(S_next | outcomes)": 2.128597924190778,
+      "H(S_next | outcomes, diagnosed trajectories)": 2.000003682229106,
+      "I(S_next; diagnosed trajectories | outcomes)": 0.12859424196167213
+    }
+  ],
+  "variant_I(Sol2;bare|S1)": {
+    "1/4": 0.004495535858694666,
+    "1/2": 0.03792837257820558,
+    "3/4": 0.17585908369789482
+  }
+}
