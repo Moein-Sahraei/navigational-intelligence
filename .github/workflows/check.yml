@@ -1,0 +1,16 @@
+name: check
+
+on: [push, pull_request]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python code/worked_example.py /tmp/out.json
+      - run: python code/make_figure.py /tmp/out.json /tmp/fig
+      - run: python code/check_by_simulation.py /tmp/out.json
