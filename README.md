@@ -4,8 +4,7 @@ Code for the paper
 
 > **Navigational Intelligence: An Information-Theoretic Limit on What AI Can Learn from Published Research**
 > Moein Sahraei, Department of Physics, Razi University, Kermanshah, Iran
-> Submitted to *Neural Networks* (Elsevier), October 2026.
-> Preliminary version: [doi:10.5281/zenodo.23257518](https://doi.org/10.5281/zenodo.23257518)
+> Preprint (all versions): [doi:10.5281/zenodo.21480329](https://doi.org/10.5281/zenodo.21480329)
 
 ![The idea in one picture: the path with reasons, the published record, and the next problem](figures/one_picture.png)
 
@@ -26,7 +25,9 @@ research trajectory and asks what is lost for learning.
 
 This repository contains the exactly solvable model in Section 5 of the paper,
 which shows the difference between *bare* trajectories (the list of attempts)
-and *diagnosed* trajectories (attempts labelled with the reason they failed).
+and *diagnosed* trajectories (attempts labelled with the reason they failed),
+and the numerical experiments in Section 6, which estimate these quantities
+from data with trained predictors.
 
 ## The model
 
@@ -74,20 +75,47 @@ itself evidence of obstruction (each viable approach works with probability
 The example does not show that real research archives have this structure,
 or how much real AI systems would gain from recorded trajectories. The
 general results are proved in the paper; the code verifies one example of
-them. Testing the predictions on real data is future work (Section 6 of the
+them. Testing the predictions on real data is future work (Section 7 of the
 paper).
+
+## Estimates from trained predictors (Section 6)
+
+`learned_estimates.py` asks whether the quantities can be measured from data.
+
+* **Estimating `ΔI_Y`.** Archives are simulated from the model above, and
+  predictors of the next solution are trained on outcomes, bare trajectories
+  and diagnosed trajectories. The task-relevant information is estimated as
+  the difference of held-out log-losses (Proposition 2(a)). With an
+  exchangeable softmax predictor the estimate converges to the exact values:
+  0.514 ± 0.001 bits with 64,000 training archives for one archived problem
+  (exact 0.515), within 0.005 bits of the exact curve for archives of up to
+  ten problems, and zero for bare trajectories.
+* **Information versus computation.** A procedure computes the parity of 10
+  bits step by step; the trajectory is its sequence of intermediate results.
+  When the procedure runs correctly the trajectory is computable from the
+  input (`ΔI_Y = 0`); when a hidden fault may flip the running result, it
+  records a fact the input does not (`ΔI_Y = 1` bit). For small networks both
+  trajectories look equally valuable; as the network grows, the computable
+  one loses its value and the faulty one keeps its full bit.
+
+![Estimates from trained predictors](figures/fig_learned_estimates.png)
 
 ## Running the code
 
-Requirements: Python 3.9 or newer; `matplotlib` for the figure and `numpy`
-for the independent check.
+Requirements: Python 3.9 or newer; `matplotlib` for the figures, `numpy` for
+the independent check, and `scipy` and `scikit-learn` for the experiments of
+Section 6.
 
 ```bash
 pip install -r requirements.txt
 python code/worked_example.py results/worked_example.json
 python code/make_figure.py results/worked_example.json figures/fig_worked_example
 python code/check_by_simulation.py results/worked_example.json
+python code/learned_estimates.py results/worked_example.json results/learned_estimates.json
+python code/make_figure_learned.py results/learned_estimates.json figures/fig_learned_estimates
 ```
+
+`learned_estimates.py` takes about 10 minutes on two CPU cores.
 
 `worked_example.py` computes every number in Section 5, Table 2 and Appendix A:
 
@@ -113,11 +141,16 @@ within statistical error. The script prints
 ## Repository layout
 
 ```
-code/worked_example.py      exact computations and self-checks
-code/check_by_simulation.py independent check by formulas and simulation
-code/make_figure.py         draws Fig. 1 from the JSON results
-results/worked_example.json output of worked_example.py
-figures/                    Fig. 1 (PDF and PNG)
+code/worked_example.py        exact computations and self-checks
+code/check_by_simulation.py   independent check by formulas and simulation
+code/make_figure.py           draws Fig. 1 from the JSON results
+code/ni_model.py              simulation of the model, used in Section 6
+code/symmetric_softmax.py     exchangeable softmax predictor (Section 6.1)
+code/learned_estimates.py     experiments of Section 6
+code/make_figure_learned.py   draws Fig. 2
+results/worked_example.json   output of worked_example.py
+results/learned_estimates.json output of learned_estimates.py
+figures/                      Figs. 1 and 2 (PDF and PNG)
 ```
 
 ## Citation
