@@ -1,0 +1,1846 @@
+{
+ "exact": {
+  "n": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "Delta_I_Y_diagnosed": [
+   0.0,
+   0.5149687031643775,
+   0.6837482802720909,
+   0.6778243967674942,
+   0.5887274007606167,
+   0.4797269518512737,
+   0.3781185654315724,
+   0.2925124470657585,
+   0.2237785977568736,
+   0.17001282050628053,
+   0.12859424196167213
+  ],
+  "attempts_outcomes": [
+   4.5,
+   4.0,
+   3.625,
+   3.34375,
+   3.1328125,
+   2.974609375,
+   2.85595703125,
+   2.7669677734375,
+   2.700225830078125,
+   2.6501693725585938,
+   2.6126270294189453
+  ],
+  "attempts_diagnosed": [
+   4.5,
+   3.0,
+   2.625,
+   2.53125,
+   2.5078125,
+   2.501953125,
+   2.50048828125,
+   2.5001220703125,
+   2.500030517578125,
+   2.5000076293945312,
+   2.500001907348633
+  ]
+ },
+ "A_learning_curve": [
+  {
+   "n": 1,
+   "n_train": 250,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.914532207580357,
+    "bare": 2.9478399127773716,
+    "diagnosed": 2.6737139007358772
+   },
+   "attempts": {
+    "outcomes": 3.99264,
+    "bare": 3.99901,
+    "diagnosed": 3.045045
+   },
+   "gap_diagnosed": 0.24081830684447958,
+   "gap_bare": -0.03330770519701476
+  },
+  {
+   "n": 1,
+   "n_train": 250,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.9154338328973632,
+    "bare": 2.9367265098306676,
+    "diagnosed": 2.5165187658858454
+   },
+   "attempts": {
+    "outcomes": 3.99544,
+    "bare": 3.997145,
+    "diagnosed": 2.99529
+   },
+   "gap_diagnosed": 0.3989150670115178,
+   "gap_bare": -0.02129267693330439
+  },
+  {
+   "n": 1,
+   "n_train": 250,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.921673644980789,
+    "bare": 3.0811880367570206,
+    "diagnosed": 2.6560043679906875
+   },
+   "attempts": {
+    "outcomes": 3.99908,
+    "bare": 4.003185,
+    "diagnosed": 3.057475
+   },
+   "gap_diagnosed": 0.26566927699010146,
+   "gap_bare": -0.1595143917762316
+  },
+  {
+   "n": 1,
+   "n_train": 250,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.915621416230599,
+    "bare": 2.944889223709795,
+    "diagnosed": 2.6572483047322706
+   },
+   "attempts": {
+    "outcomes": 3.99616,
+    "bare": 3.997645,
+    "diagnosed": 3.04736
+   },
+   "gap_diagnosed": 0.25837311149832853,
+   "gap_bare": -0.029267807479195884
+  },
+  {
+   "n": 1,
+   "n_train": 250,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.926678557666995,
+    "bare": 3.020563824094321,
+    "diagnosed": 2.817156614033926
+   },
+   "attempts": {
+    "outcomes": 4.00452,
+    "bare": 4.20154,
+    "diagnosed": 3.26071
+   },
+   "gap_diagnosed": 0.109521943633069,
+   "gap_bare": -0.09388526642732575
+  },
+  {
+   "n": 1,
+   "n_train": 500,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.9153669735827683,
+    "bare": 2.935511775678018,
+    "diagnosed": 2.4441928147128045
+   },
+   "attempts": {
+    "outcomes": 3.994,
+    "bare": 4.083845,
+    "diagnosed": 3.028975
+   },
+   "gap_diagnosed": 0.47117415886996383,
+   "gap_bare": -0.020144802095249492
+  },
+  {
+   "n": 1,
+   "n_train": 500,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.9151079539282234,
+    "bare": 2.9320540190060687,
+    "diagnosed": 2.517513440910719
+   },
+   "attempts": {
+    "outcomes": 3.99436,
+    "bare": 3.9917,
+    "diagnosed": 3.03532
+   },
+   "gap_diagnosed": 0.39759451301750426,
+   "gap_bare": -0.01694606507784524
+  },
+  {
+   "n": 1,
+   "n_train": 500,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9172662594988386,
+    "bare": 2.9382351926574954,
+    "diagnosed": 2.478186476336304
+   },
+   "attempts": {
+    "outcomes": 4.00028,
+    "bare": 3.99975,
+    "diagnosed": 3.10172
+   },
+   "gap_diagnosed": 0.4390797831625344,
+   "gap_bare": -0.02096893315865689
+  },
+  {
+   "n": 1,
+   "n_train": 500,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.9163803976361486,
+    "bare": 2.9398977406409204,
+    "diagnosed": 2.4500417035107427
+   },
+   "attempts": {
+    "outcomes": 3.99756,
+    "bare": 3.992655,
+    "diagnosed": 3.00056
+   },
+   "gap_diagnosed": 0.46633869412540596,
+   "gap_bare": -0.023517343004771707
+  },
+  {
+   "n": 1,
+   "n_train": 500,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.918974880545981,
+    "bare": 2.9562670079798465,
+    "diagnosed": 2.5397260438836406
+   },
+   "attempts": {
+    "outcomes": 4.00604,
+    "bare": 4.01099,
+    "diagnosed": 2.996335
+   },
+   "gap_diagnosed": 0.3792488366623403,
+   "gap_bare": -0.03729212743386556
+  },
+  {
+   "n": 1,
+   "n_train": 1000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.915301272273825,
+    "bare": 2.9247991464751935,
+    "diagnosed": 2.435585285879822
+   },
+   "attempts": {
+    "outcomes": 3.99496,
+    "bare": 3.995885,
+    "diagnosed": 3.003415
+   },
+   "gap_diagnosed": 0.47971598639400304,
+   "gap_bare": -0.009497874201368273
+  },
+  {
+   "n": 1,
+   "n_train": 1000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.916571824989958,
+    "bare": 2.927985342101804,
+    "diagnosed": 2.4358255237294393
+   },
+   "attempts": {
+    "outcomes": 3.99836,
+    "bare": 3.997315,
+    "diagnosed": 3.004965
+   },
+   "gap_diagnosed": 0.48074630126051865,
+   "gap_bare": -0.011413517111845906
+  },
+  {
+   "n": 1,
+   "n_train": 1000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9167301256481353,
+    "bare": 2.9275335380644303,
+    "diagnosed": 2.417827421227445
+   },
+   "attempts": {
+    "outcomes": 3.9996,
+    "bare": 3.99706,
+    "diagnosed": 2.99964
+   },
+   "gap_diagnosed": 0.4989027044206904,
+   "gap_bare": -0.01080341241629501
+  },
+  {
+   "n": 1,
+   "n_train": 1000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.9218308050751047,
+    "bare": 2.926733312089703,
+    "diagnosed": 2.4246843480202065
+   },
+   "attempts": {
+    "outcomes": 3.99428,
+    "bare": 3.999555,
+    "diagnosed": 2.99961
+   },
+   "gap_diagnosed": 0.49714645705489824,
+   "gap_bare": -0.004902507014598267
+  },
+  {
+   "n": 1,
+   "n_train": 1000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.9181343262607466,
+    "bare": 2.9249511068913363,
+    "diagnosed": 2.422854275200673
+   },
+   "attempts": {
+    "outcomes": 4.0044,
+    "bare": 4.008,
+    "diagnosed": 2.99694
+   },
+   "gap_diagnosed": 0.49528005106007367,
+   "gap_bare": -0.006816780630589658
+  },
+  {
+   "n": 1,
+   "n_train": 2000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.917412245070688,
+    "bare": 2.9224764500279004,
+    "diagnosed": 2.413499941934095
+   },
+   "attempts": {
+    "outcomes": 3.9942,
+    "bare": 3.992625,
+    "diagnosed": 3.000605
+   },
+   "gap_diagnosed": 0.5039123031365929,
+   "gap_bare": -0.0050642049572124925
+  },
+  {
+   "n": 1,
+   "n_train": 2000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.916372514406967,
+    "bare": 2.922110785126197,
+    "diagnosed": 2.4146803696921486
+   },
+   "attempts": {
+    "outcomes": 3.99548,
+    "bare": 4.000645,
+    "diagnosed": 3.00604
+   },
+   "gap_diagnosed": 0.5016921447148186,
+   "gap_bare": -0.005738270719229721
+  },
+  {
+   "n": 1,
+   "n_train": 2000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9191033404110547,
+    "bare": 2.9233390584641707,
+    "diagnosed": 2.4174771929759347
+   },
+   "attempts": {
+    "outcomes": 3.99744,
+    "bare": 3.99606,
+    "diagnosed": 3.00323
+   },
+   "gap_diagnosed": 0.50162614743512,
+   "gap_bare": -0.0042357180531160665
+  },
+  {
+   "n": 1,
+   "n_train": 2000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.9153046328190815,
+    "bare": 2.922835688753883,
+    "diagnosed": 2.413229735725564
+   },
+   "attempts": {
+    "outcomes": 3.99508,
+    "bare": 3.99708,
+    "diagnosed": 2.99803
+   },
+   "gap_diagnosed": 0.5020748970935176,
+   "gap_bare": -0.007531055934801412
+  },
+  {
+   "n": 1,
+   "n_train": 2000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.9175330495799354,
+    "bare": 2.9197883312629442,
+    "diagnosed": 2.4051269937371664
+   },
+   "attempts": {
+    "outcomes": 4.00196,
+    "bare": 4.00314,
+    "diagnosed": 3.018875
+   },
+   "gap_diagnosed": 0.512406055842769,
+   "gap_bare": -0.002255281683008814
+  },
+  {
+   "n": 1,
+   "n_train": 4000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.9163426407343116,
+    "bare": 2.9203874576136655,
+    "diagnosed": 2.4099395639600716
+   },
+   "attempts": {
+    "outcomes": 3.99848,
+    "bare": 3.99964,
+    "diagnosed": 3.003805
+   },
+   "gap_diagnosed": 0.50640307677424,
+   "gap_bare": -0.004044816879353874
+  },
+  {
+   "n": 1,
+   "n_train": 4000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.9164004472651888,
+    "bare": 2.9209678062025946,
+    "diagnosed": 2.407020069783041
+   },
+   "attempts": {
+    "outcomes": 3.99844,
+    "bare": 4.00054,
+    "diagnosed": 2.99772
+   },
+   "gap_diagnosed": 0.5093803774821479,
+   "gap_bare": -0.0045673589374057855
+  },
+  {
+   "n": 1,
+   "n_train": 4000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9160708985102604,
+    "bare": 2.917241489602914,
+    "diagnosed": 2.4084545295121207
+   },
+   "attempts": {
+    "outcomes": 3.99692,
+    "bare": 3.99624,
+    "diagnosed": 2.996095
+   },
+   "gap_diagnosed": 0.5076163689981397,
+   "gap_bare": -0.0011705910926536056
+  },
+  {
+   "n": 1,
+   "n_train": 4000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.916292068383775,
+    "bare": 2.9184716790639156,
+    "diagnosed": 2.4043959041228073
+   },
+   "attempts": {
+    "outcomes": 3.99612,
+    "bare": 3.9907,
+    "diagnosed": 2.998875
+   },
+   "gap_diagnosed": 0.5118961642609676,
+   "gap_bare": -0.002179610680140609
+  },
+  {
+   "n": 1,
+   "n_train": 4000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.915127733120163,
+    "bare": 2.9179428016930884,
+    "diagnosed": 2.4084293710241664
+   },
+   "attempts": {
+    "outcomes": 3.99404,
+    "bare": 3.99857,
+    "diagnosed": 2.998865
+   },
+   "gap_diagnosed": 0.5066983620959964,
+   "gap_bare": -0.002815068572925572
+  },
+  {
+   "n": 1,
+   "n_train": 8000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.914717333227832,
+    "bare": 2.916636735294453,
+    "diagnosed": 2.406767704316621
+   },
+   "attempts": {
+    "outcomes": 3.99312,
+    "bare": 3.98965,
+    "diagnosed": 3.002015
+   },
+   "gap_diagnosed": 0.5079496289112111,
+   "gap_bare": -0.00191940206662089
+  },
+  {
+   "n": 1,
+   "n_train": 8000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.9189777217221597,
+    "bare": 2.9199649629788964,
+    "diagnosed": 2.4066040085936042
+   },
+   "attempts": {
+    "outcomes": 4.0066,
+    "bare": 4.007885,
+    "diagnosed": 3.00436
+   },
+   "gap_diagnosed": 0.5123737131285555,
+   "gap_bare": -0.0009872412567366595
+  },
+  {
+   "n": 1,
+   "n_train": 8000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9179035092788514,
+    "bare": 2.9192255681778425,
+    "diagnosed": 2.407154736505675
+   },
+   "attempts": {
+    "outcomes": 4.00364,
+    "bare": 4.00438,
+    "diagnosed": 3.00481
+   },
+   "gap_diagnosed": 0.5107487727731765,
+   "gap_bare": -0.001322058898991063
+  },
+  {
+   "n": 1,
+   "n_train": 8000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.9171597844746637,
+    "bare": 2.91786443318091,
+    "diagnosed": 2.4010087189958775
+   },
+   "attempts": {
+    "outcomes": 4.00116,
+    "bare": 3.99487,
+    "diagnosed": 2.99445
+   },
+   "gap_diagnosed": 0.5161510654787862,
+   "gap_bare": -0.0007046487062463136
+  },
+  {
+   "n": 1,
+   "n_train": 8000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.9157297236212023,
+    "bare": 2.917806480800366,
+    "diagnosed": 2.4017620368052706
+   },
+   "attempts": {
+    "outcomes": 3.99632,
+    "bare": 3.99476,
+    "diagnosed": 2.98879
+   },
+   "gap_diagnosed": 0.5139676868159317,
+   "gap_bare": -0.0020767571791635575
+  },
+  {
+   "n": 1,
+   "n_train": 16000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.918267788872918,
+    "bare": 2.9189526382812327,
+    "diagnosed": 2.405169662789755
+   },
+   "attempts": {
+    "outcomes": 4.00432,
+    "bare": 4.005875,
+    "diagnosed": 3.004985
+   },
+   "gap_diagnosed": 0.5130981260831629,
+   "gap_bare": -0.0006848494083149248
+  },
+  {
+   "n": 1,
+   "n_train": 16000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.919513485739302,
+    "bare": 2.9198170890301425,
+    "diagnosed": 2.405488931335283
+   },
+   "attempts": {
+    "outcomes": 4.00896,
+    "bare": 4.007755,
+    "diagnosed": 3.004445
+   },
+   "gap_diagnosed": 0.5140245544040187,
+   "gap_bare": -0.0003036032908405595
+  },
+  {
+   "n": 1,
+   "n_train": 16000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9189359128020325,
+    "bare": 2.9190187502508076,
+    "diagnosed": 2.4004799210259464
+   },
+   "attempts": {
+    "outcomes": 4.00704,
+    "bare": 4.00066,
+    "diagnosed": 2.9931
+   },
+   "gap_diagnosed": 0.518455991776086,
+   "gap_bare": -8.283744877513044e-05
+  },
+  {
+   "n": 1,
+   "n_train": 16000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.914497246723324,
+    "bare": 2.9148732343622767,
+    "diagnosed": 2.4009767308588477
+   },
+   "attempts": {
+    "outcomes": 3.99204,
+    "bare": 3.990525,
+    "diagnosed": 2.99651
+   },
+   "gap_diagnosed": 0.5135205158644762,
+   "gap_bare": -0.00037598763895285714
+  },
+  {
+   "n": 1,
+   "n_train": 16000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.9165632705508893,
+    "bare": 2.916696413367826,
+    "diagnosed": 2.4052856751612866
+   },
+   "attempts": {
+    "outcomes": 3.99892,
+    "bare": 3.997495,
+    "diagnosed": 3.00443
+   },
+   "gap_diagnosed": 0.5112775953896027,
+   "gap_bare": -0.00013314281693688201
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.916126736927403,
+    "bare": 2.9165984989728435,
+    "diagnosed": 2.4017467241362094
+   },
+   "attempts": {
+    "outcomes": 3.9978,
+    "bare": 4.005385,
+    "diagnosed": 2.995145
+   },
+   "gap_diagnosed": 0.5143800127911935,
+   "gap_bare": -0.00047176204544063793
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.9157533732890513,
+    "bare": 2.9161459060925297,
+    "diagnosed": 2.4012972384472437
+   },
+   "attempts": {
+    "outcomes": 3.9966,
+    "bare": 3.995715,
+    "diagnosed": 2.997855
+   },
+   "gap_diagnosed": 0.5144561348418075,
+   "gap_bare": -0.0003925328034783959
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.9115318215148887,
+    "bare": 2.9115856903484465,
+    "diagnosed": 2.3993108000793413
+   },
+   "attempts": {
+    "outcomes": 3.9818,
+    "bare": 3.97853,
+    "diagnosed": 2.99102
+   },
+   "gap_diagnosed": 0.5122210214355474,
+   "gap_bare": -5.386883355784633e-05
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.9164490162302403,
+    "bare": 2.9167758593990496,
+    "diagnosed": 2.402202363857307
+   },
+   "attempts": {
+    "outcomes": 3.99876,
+    "bare": 3.99875,
+    "diagnosed": 3.000495
+   },
+   "gap_diagnosed": 0.5142466523729334,
+   "gap_bare": -0.00032684316880926545
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.919997789586803,
+    "bare": 2.9202237332399723,
+    "diagnosed": 2.4033304826204884
+   },
+   "attempts": {
+    "outcomes": 4.01036,
+    "bare": 4.00845,
+    "diagnosed": 3.00091
+   },
+   "gap_diagnosed": 0.5166673069663146,
+   "gap_bare": -0.00022594365316930265
+  },
+  {
+   "n": 1,
+   "n_train": 64000,
+   "seed": 0,
+   "logloss": {
+    "outcomes": 2.919159632524697,
+    "bare": 2.9194529506814315,
+    "diagnosed": 2.4045954255271953
+   },
+   "attempts": {
+    "outcomes": 4.00772,
+    "bare": 4.00902,
+    "diagnosed": 3.00823
+   },
+   "gap_diagnosed": 0.5145642069975018,
+   "gap_bare": -0.0002933181567343901
+  },
+  {
+   "n": 1,
+   "n_train": 64000,
+   "seed": 1,
+   "logloss": {
+    "outcomes": 2.918002643456801,
+    "bare": 2.9181394248705868,
+    "diagnosed": 2.4049388852216556
+   },
+   "attempts": {
+    "outcomes": 4.00396,
+    "bare": 4.0072,
+    "diagnosed": 3.005965
+   },
+   "gap_diagnosed": 0.5130637582351456,
+   "gap_bare": -0.0001367814137855916
+  },
+  {
+   "n": 1,
+   "n_train": 64000,
+   "seed": 2,
+   "logloss": {
+    "outcomes": 2.916242271974393,
+    "bare": 2.916495442763471,
+    "diagnosed": 2.4020922404099982
+   },
+   "attempts": {
+    "outcomes": 3.99816,
+    "bare": 4.002335,
+    "diagnosed": 2.999365
+   },
+   "gap_diagnosed": 0.5141500315643945,
+   "gap_bare": -0.00025317078907827195
+  },
+  {
+   "n": 1,
+   "n_train": 64000,
+   "seed": 3,
+   "logloss": {
+    "outcomes": 2.9165923475556332,
+    "bare": 2.916753181687953,
+    "diagnosed": 2.401487463416385
+   },
+   "attempts": {
+    "outcomes": 3.99928,
+    "bare": 4.001175,
+    "diagnosed": 2.99781
+   },
+   "gap_diagnosed": 0.515104884139248,
+   "gap_bare": -0.00016083413231982036
+  },
+  {
+   "n": 1,
+   "n_train": 64000,
+   "seed": 4,
+   "logloss": {
+    "outcomes": 2.915764825208831,
+    "bare": 2.915914997572209,
+    "diagnosed": 2.402847316828943
+   },
+   "attempts": {
+    "outcomes": 3.99664,
+    "bare": 3.99891,
+    "diagnosed": 2.999875
+   },
+   "gap_diagnosed": 0.5129175083798878,
+   "gap_bare": -0.0001501723633783314
+  }
+ ],
+ "A_archive_size": [
+  {
+   "n": 0,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 3.0,
+    "bare": 3.0,
+    "diagnosed": 3.0
+   },
+   "attempts": {
+    "outcomes": 4.5,
+    "bare": 4.5,
+    "diagnosed": 4.5
+   },
+   "gap_diagnosed": 0.0,
+   "gap_bare": 0.0
+  },
+  {
+   "n": 0,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 3.0,
+    "bare": 3.0,
+    "diagnosed": 3.0
+   },
+   "attempts": {
+    "outcomes": 4.5,
+    "bare": 4.5,
+    "diagnosed": 4.5
+   },
+   "gap_diagnosed": 0.0,
+   "gap_bare": 0.0
+  },
+  {
+   "n": 0,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 3.0,
+    "bare": 3.0,
+    "diagnosed": 3.0
+   },
+   "attempts": {
+    "outcomes": 4.5,
+    "bare": 4.5,
+    "diagnosed": 4.5
+   },
+   "gap_diagnosed": 0.0,
+   "gap_bare": 0.0
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.9171911921978113,
+    "bare": 2.9176623119870277,
+    "diagnosed": 2.402369828672591
+   },
+   "attempts": {
+    "outcomes": 4.00124,
+    "bare": 4.003995,
+    "diagnosed": 2.99988
+   },
+   "gap_diagnosed": 0.5148213635252201,
+   "gap_bare": -0.00047111978921643427
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.9153120641511783,
+    "bare": 2.915633918225728,
+    "diagnosed": 2.400770800538239
+   },
+   "attempts": {
+    "outcomes": 3.99512,
+    "bare": 3.993615,
+    "diagnosed": 2.99891
+   },
+   "gap_diagnosed": 0.5145412636129394,
+   "gap_bare": -0.00032185407454976556
+  },
+  {
+   "n": 1,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.918050945997146,
+    "bare": 2.9185583410982696,
+    "diagnosed": 2.405808749411463
+   },
+   "attempts": {
+    "outcomes": 4.00412,
+    "bare": 4.00547,
+    "diagnosed": 3.007
+   },
+   "gap_diagnosed": 0.5122421965856829,
+   "gap_bare": -0.0005073951011236311
+  },
+  {
+   "n": 2,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.8239588362899695,
+    "bare": 2.824619243144244,
+    "diagnosed": 2.142107045646077
+   },
+   "attempts": {
+    "outcomes": 3.62622,
+    "bare": 3.62983,
+    "diagnosed": 2.62637
+   },
+   "gap_diagnosed": 0.6818517906438926,
+   "gap_bare": -0.0006604068542745978
+  },
+  {
+   "n": 2,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.8209463464227995,
+    "bare": 2.8216279231752153,
+    "diagnosed": 2.1414738207757305
+   },
+   "attempts": {
+    "outcomes": 3.618195,
+    "bare": 3.61375,
+    "diagnosed": 2.625315
+   },
+   "gap_diagnosed": 0.6794725256470691,
+   "gap_bare": -0.0006815767524157579
+  },
+  {
+   "n": 2,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.8249773652441976,
+    "bare": 2.8254991054814926,
+    "diagnosed": 2.1387927694594424
+   },
+   "attempts": {
+    "outcomes": 3.628,
+    "bare": 3.623725,
+    "diagnosed": 2.61767
+   },
+   "gap_diagnosed": 0.6861845957847552,
+   "gap_bare": -0.0005217402372950097
+  },
+  {
+   "n": 3,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.7160793187311256,
+    "bare": 2.7167499876876433,
+    "diagnosed": 2.045184127032961
+   },
+   "attempts": {
+    "outcomes": 3.33286,
+    "bare": 3.3329,
+    "diagnosed": 2.52788
+   },
+   "gap_diagnosed": 0.6708951916981647,
+   "gap_bare": -0.0006706689565176838
+  },
+  {
+   "n": 3,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.719623029599673,
+    "bare": 2.7206918653509304,
+    "diagnosed": 2.0458563166626957
+   },
+   "attempts": {
+    "outcomes": 3.339895,
+    "bare": 3.342145,
+    "diagnosed": 2.533395
+   },
+   "gap_diagnosed": 0.6737667129369771,
+   "gap_bare": -0.0010688357512576019
+  },
+  {
+   "n": 3,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.7200884928309987,
+    "bare": 2.720840100360258,
+    "diagnosed": 2.0434443652121694
+   },
+   "attempts": {
+    "outcomes": 3.342015,
+    "bare": 3.34077,
+    "diagnosed": 2.528605
+   },
+   "gap_diagnosed": 0.6766441276188293,
+   "gap_bare": -0.0007516075292590685
+  },
+  {
+   "n": 4,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.593095689714236,
+    "bare": 2.5942414449809816,
+    "diagnosed": 2.0132066342760453
+   },
+   "attempts": {
+    "outcomes": 3.11735,
+    "bare": 3.116395,
+    "diagnosed": 2.51225
+   },
+   "gap_diagnosed": 0.5798890554381906,
+   "gap_bare": -0.0011457552667457627
+  },
+  {
+   "n": 4,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.601994080142923,
+    "bare": 2.602590039569643,
+    "diagnosed": 2.013687951821305
+   },
+   "attempts": {
+    "outcomes": 3.137245,
+    "bare": 3.136905,
+    "diagnosed": 2.51083
+   },
+   "gap_diagnosed": 0.588306128321618,
+   "gap_bare": -0.0005959594267199719
+  },
+  {
+   "n": 4,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.5995500549239527,
+    "bare": 2.601342181436141,
+    "diagnosed": 2.0135354772447687
+   },
+   "attempts": {
+    "outcomes": 3.1316,
+    "bare": 3.13257,
+    "diagnosed": 2.50472
+   },
+   "gap_diagnosed": 0.5860145776791841,
+   "gap_bare": -0.0017921265121882968
+  },
+  {
+   "n": 5,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.482635468371634,
+    "bare": 2.483402209378751,
+    "diagnosed": 2.004631094679912
+   },
+   "attempts": {
+    "outcomes": 2.97487,
+    "bare": 2.974475,
+    "diagnosed": 2.50318
+   },
+   "gap_diagnosed": 0.4780043736917219,
+   "gap_bare": -0.0007667410071170444
+  },
+  {
+   "n": 5,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.4836621171454567,
+    "bare": 2.484380308641119,
+    "diagnosed": 2.004415518929115
+   },
+   "attempts": {
+    "outcomes": 2.974945,
+    "bare": 2.975075,
+    "diagnosed": 2.5025
+   },
+   "gap_diagnosed": 0.47924659821634163,
+   "gap_bare": -0.0007181914956624347
+  },
+  {
+   "n": 5,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.4781667194741903,
+    "bare": 2.4789975968097546,
+    "diagnosed": 2.0047538273675833
+   },
+   "attempts": {
+    "outcomes": 2.965235,
+    "bare": 2.965905,
+    "diagnosed": 2.504605
+   },
+   "gap_diagnosed": 0.473412892106607,
+   "gap_bare": -0.0008308773355643062
+  },
+  {
+   "n": 6,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.376208535662353,
+    "bare": 2.376421222011997,
+    "diagnosed": 2.001364369600494
+   },
+   "attempts": {
+    "outcomes": 2.85218,
+    "bare": 2.851415,
+    "diagnosed": 2.50105
+   },
+   "gap_diagnosed": 0.3748441660618589,
+   "gap_bare": -0.00021268634964410893
+  },
+  {
+   "n": 6,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.3744622696020263,
+    "bare": 2.3750169321396917,
+    "diagnosed": 2.001920807107538
+   },
+   "attempts": {
+    "outcomes": 2.847705,
+    "bare": 2.84718,
+    "diagnosed": 2.5031
+   },
+   "gap_diagnosed": 0.3725414624944885,
+   "gap_bare": -0.0005546625376653402
+  },
+  {
+   "n": 6,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.3811358784761314,
+    "bare": 2.381618614129485,
+    "diagnosed": 2.0016018639475446
+   },
+   "attempts": {
+    "outcomes": 2.858645,
+    "bare": 2.858545,
+    "diagnosed": 2.50097
+   },
+   "gap_diagnosed": 0.3795340145285868,
+   "gap_bare": -0.00048273565335366087
+  },
+  {
+   "n": 7,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.292159541871317,
+    "bare": 2.292670938051557,
+    "diagnosed": 2.0011581784297143
+   },
+   "attempts": {
+    "outcomes": 2.76511,
+    "bare": 2.76499,
+    "diagnosed": 2.503475
+   },
+   "gap_diagnosed": 0.29100136344160266,
+   "gap_bare": -0.0005113961802400979
+  },
+  {
+   "n": 7,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.294282080220426,
+    "bare": 2.2946933485871495,
+    "diagnosed": 2.0008142931455315
+   },
+   "attempts": {
+    "outcomes": 2.769405,
+    "bare": 2.7695,
+    "diagnosed": 2.49817
+   },
+   "gap_diagnosed": 0.2934677870748943,
+   "gap_bare": -0.0004112683667236716
+  },
+  {
+   "n": 7,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.292915534122127,
+    "bare": 2.2932808411342833,
+    "diagnosed": 2.001108978148583
+   },
+   "attempts": {
+    "outcomes": 2.76572,
+    "bare": 2.7656,
+    "diagnosed": 2.50075
+   },
+   "gap_diagnosed": 0.2918065559735439,
+   "gap_bare": -0.00036530701215653494
+  },
+  {
+   "n": 8,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.225768101418908,
+    "bare": 2.226003822071468,
+    "diagnosed": 2.0006972954247715
+   },
+   "attempts": {
+    "outcomes": 2.70133,
+    "bare": 2.70164,
+    "diagnosed": 2.502135
+   },
+   "gap_diagnosed": 0.22507080599413642,
+   "gap_bare": -0.0002357206525602784
+  },
+  {
+   "n": 8,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.2242035571484324,
+    "bare": 2.2246227454920176,
+    "diagnosed": 2.000683181015305
+   },
+   "attempts": {
+    "outcomes": 2.70053,
+    "bare": 2.7008,
+    "diagnosed": 2.500055
+   },
+   "gap_diagnosed": 0.22352037613312747,
+   "gap_bare": -0.0004191883435851196
+  },
+  {
+   "n": 8,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.2237134711732702,
+    "bare": 2.2239486677190965,
+    "diagnosed": 2.0009560498082704
+   },
+   "attempts": {
+    "outcomes": 2.700595,
+    "bare": 2.70071,
+    "diagnosed": 2.49946
+   },
+   "gap_diagnosed": 0.22275742136499987,
+   "gap_bare": -0.00023519654582626615
+  },
+  {
+   "n": 9,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.1723201442534226,
+    "bare": 2.172476703297172,
+    "diagnosed": 2.000223881081077
+   },
+   "attempts": {
+    "outcomes": 2.654105,
+    "bare": 2.654105,
+    "diagnosed": 2.498485
+   },
+   "gap_diagnosed": 0.1720962631723455,
+   "gap_bare": -0.0001565590437495601
+  },
+  {
+   "n": 9,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.1684336459256937,
+    "bare": 2.168721134813202,
+    "diagnosed": 2.0001902830050016
+   },
+   "attempts": {
+    "outcomes": 2.647075,
+    "bare": 2.647085,
+    "diagnosed": 2.501635
+   },
+   "gap_diagnosed": 0.16824336292069209,
+   "gap_bare": -0.0002874888875084025
+  },
+  {
+   "n": 9,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.1702661953389524,
+    "bare": 2.170449206452948,
+    "diagnosed": 2.000157599111837
+   },
+   "attempts": {
+    "outcomes": 2.649995,
+    "bare": 2.650125,
+    "diagnosed": 2.501335
+   },
+   "gap_diagnosed": 0.17010859622711516,
+   "gap_bare": -0.00018301111399576797
+  },
+  {
+   "n": 10,
+   "n_train": 32000,
+   "seed": 100,
+   "logloss": {
+    "outcomes": 2.1298525137369224,
+    "bare": 2.1300368734192574,
+    "diagnosed": 2.000313961740621
+   },
+   "attempts": {
+    "outcomes": 2.61457,
+    "bare": 2.61451,
+    "diagnosed": 2.500005
+   },
+   "gap_diagnosed": 0.12953855199630127,
+   "gap_bare": -0.00018435968233498912
+  },
+  {
+   "n": 10,
+   "n_train": 32000,
+   "seed": 101,
+   "logloss": {
+    "outcomes": 2.129197089333706,
+    "bare": 2.1293408460596805,
+    "diagnosed": 2.0002302530480573
+   },
+   "attempts": {
+    "outcomes": 2.61374,
+    "bare": 2.61374,
+    "diagnosed": 2.500885
+   },
+   "gap_diagnosed": 0.12896683628564887,
+   "gap_bare": -0.0001437567259743311
+  },
+  {
+   "n": 10,
+   "n_train": 32000,
+   "seed": 102,
+   "logloss": {
+    "outcomes": 2.126733227855042,
+    "bare": 2.126759663391897,
+    "diagnosed": 2.000034676051974
+   },
+   "attempts": {
+    "outcomes": 2.609095,
+    "bare": 2.60905,
+    "diagnosed": 2.501345
+   },
+   "gap_diagnosed": 0.12669855180306833,
+   "gap_bare": -2.6435536854663155e-05
+  }
+ ],
+ "A_generic_mlp": [
+  {
+   "seed": 0,
+   "gap_diagnosed": 0.4688578571902857,
+   "logloss": {
+    "outcomes": 2.918674598261713,
+    "diagnosed": 2.449816741071427
+   }
+  },
+  {
+   "seed": 1,
+   "gap_diagnosed": 0.4846643639024868,
+   "logloss": {
+    "outcomes": 2.918137166058347,
+    "diagnosed": 2.43347280215586
+   }
+  },
+  {
+   "seed": 2,
+   "gap_diagnosed": 0.46720736748426983,
+   "logloss": {
+    "outcomes": 2.9209606900208245,
+    "diagnosed": 2.4537533225365546
+   }
+  }
+ ],
+ "B_capacity": [
+  {
+   "width": 0,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 1.0003774541871036,
+   "logloss_trajectory": 1.000876702757861,
+   "gap": -0.000499248570757338
+  },
+  {
+   "width": 0,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 1.000142347055142,
+   "logloss_trajectory": 1.000840122237079,
+   "gap": -0.0006977751819370326
+  },
+  {
+   "width": 0,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 1.0001983826666891,
+   "logloss_trajectory": 1.000648638184473,
+   "gap": -0.00045025551778388184
+  },
+  {
+   "width": 0,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.000713669725279,
+   "logloss_trajectory": 1.0008083425622092,
+   "gap": -9.467283693020967e-05
+  },
+  {
+   "width": 0,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0002524879540557,
+   "logloss_trajectory": 1.0003861323459757,
+   "gap": -0.00013364439191998478
+  },
+  {
+   "width": 0,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0006001952915482,
+   "logloss_trajectory": 1.0009040048385576,
+   "gap": -0.00030380954700937046
+  },
+  {
+   "width": 2,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 0.9797898837143675,
+   "logloss_trajectory": 6.4384112881094234e-06,
+   "gap": 0.9797834453030794
+  },
+  {
+   "width": 2,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 1.0002421599272697,
+   "logloss_trajectory": 0.6884901830184501,
+   "gap": 0.3117519769088196
+  },
+  {
+   "width": 2,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 1.0001464018802506,
+   "logloss_trajectory": 6.651359872154529e-06,
+   "gap": 1.0001397505203784
+  },
+  {
+   "width": 2,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.001317605177793,
+   "logloss_trajectory": 6.368172019004058e-06,
+   "gap": 1.001311237005774
+  },
+  {
+   "width": 2,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0011228828683802,
+   "logloss_trajectory": 0.6930918498715782,
+   "gap": 0.308031032996802
+  },
+  {
+   "width": 2,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0007610952979633,
+   "logloss_trajectory": 1.0006407542737588,
+   "gap": 0.00012034102420455106
+  },
+  {
+   "width": 4,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 0.9758941228234677,
+   "logloss_trajectory": 0.4969646959685211,
+   "gap": 0.47892942685494655
+  },
+  {
+   "width": 4,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 0.9834370380586728,
+   "logloss_trajectory": 4.677123519031233e-06,
+   "gap": 0.9834323609351537
+  },
+  {
+   "width": 4,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 0.968273117942781,
+   "logloss_trajectory": 4.6600937886543325e-06,
+   "gap": 0.9682684578489924
+  },
+  {
+   "width": 4,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.0009483405087813,
+   "logloss_trajectory": 0.49385951914272547,
+   "gap": 0.5070888213660558
+  },
+  {
+   "width": 4,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0005281340131196,
+   "logloss_trajectory": 4.765732564968699e-06,
+   "gap": 1.0005233682805545
+  },
+  {
+   "width": 4,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0020501645535844,
+   "logloss_trajectory": 4.690032627223006e-06,
+   "gap": 1.0020454745209573
+  },
+  {
+   "width": 8,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 0.10854856413869067,
+   "logloss_trajectory": 4.638660626063831e-06,
+   "gap": 0.1085439254780646
+  },
+  {
+   "width": 8,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 0.4154057650783173,
+   "logloss_trajectory": 4.58604630542537e-06,
+   "gap": 0.41540117903201185
+  },
+  {
+   "width": 8,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 0.8254155025575579,
+   "logloss_trajectory": 4.5738919814175804e-06,
+   "gap": 0.8254109286655765
+  },
+  {
+   "width": 8,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.0030555136491741,
+   "logloss_trajectory": 4.62577001982429e-06,
+   "gap": 1.0030508878791542
+  },
+  {
+   "width": 8,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0027671639227007,
+   "logloss_trajectory": 4.589727922337929e-06,
+   "gap": 1.0027625741947783
+  },
+  {
+   "width": 8,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0046438119780396,
+   "logloss_trajectory": 4.1978311215778946e-06,
+   "gap": 1.004639614146918
+  },
+  {
+   "width": 16,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 0.39195011317496453,
+   "logloss_trajectory": 4.5209586149775705e-06,
+   "gap": 0.39194559221634956
+  },
+  {
+   "width": 16,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 0.10654567404552681,
+   "logloss_trajectory": 3.965281190708228e-06,
+   "gap": 0.10654170876433611
+  },
+  {
+   "width": 16,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 0.6747392410279314,
+   "logloss_trajectory": 4.380790413540669e-06,
+   "gap": 0.6747348602375178
+  },
+  {
+   "width": 16,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.0071770838051317,
+   "logloss_trajectory": 4.5545612222237596e-06,
+   "gap": 1.0071725292439095
+  },
+  {
+   "width": 16,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0074935608783429,
+   "logloss_trajectory": 4.136710903819529e-06,
+   "gap": 1.007489424167439
+  },
+  {
+   "width": 16,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0037658890009236,
+   "logloss_trajectory": 4.191282027630562e-06,
+   "gap": 1.003761697718896
+  },
+  {
+   "width": 32,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 0.05947259799793882,
+   "logloss_trajectory": 3.7972881065574878e-06,
+   "gap": 0.05946880070983226
+  },
+  {
+   "width": 32,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 0.05628427499122076,
+   "logloss_trajectory": 3.624713914621712e-06,
+   "gap": 0.05628065027730614
+  },
+  {
+   "width": 32,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 0.03706725481673238,
+   "logloss_trajectory": 3.2302239165940216e-06,
+   "gap": 0.037064024592815784
+  },
+  {
+   "width": 32,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.015053572743925,
+   "logloss_trajectory": 3.811506488859838e-06,
+   "gap": 1.015049761237436
+  },
+  {
+   "width": 32,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0141180507095842,
+   "logloss_trajectory": 3.274035815422913e-06,
+   "gap": 1.0141147766737688
+  },
+  {
+   "width": 32,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0143751296314043,
+   "logloss_trajectory": 3.611796923965353e-06,
+   "gap": 1.0143715178344803
+  },
+  {
+   "width": 64,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 8.328321912001019e-05,
+   "logloss_trajectory": 2.6113599899499065e-06,
+   "gap": 8.067185913006028e-05
+  },
+  {
+   "width": 64,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 0.00010709282870479631,
+   "logloss_trajectory": 3.0979470505016614e-06,
+   "gap": 0.00010399488165429465
+  },
+  {
+   "width": 64,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 6.511333963309278e-05,
+   "logloss_trajectory": 3.038137998258619e-06,
+   "gap": 6.207520163483416e-05
+  },
+  {
+   "width": 64,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.0202185660850553,
+   "logloss_trajectory": 3.3999678848464735e-06,
+   "gap": 1.0202151661171706
+  },
+  {
+   "width": 64,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0238392649638144,
+   "logloss_trajectory": 8.094212938776789e-07,
+   "gap": 1.0238384555425206
+  },
+  {
+   "width": 64,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0271667764587622,
+   "logloss_trajectory": 3.6053733154750535e-06,
+   "gap": 1.0271631710854467
+  },
+  {
+   "width": 128,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 1.1722625981468027e-05,
+   "logloss_trajectory": 3.0963747982717087e-06,
+   "gap": 8.626251183196318e-06
+  },
+  {
+   "width": 128,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 1.2274528898239056e-05,
+   "logloss_trajectory": 2.618627970412482e-06,
+   "gap": 9.655900927826574e-06
+  },
+  {
+   "width": 128,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 1.2906069591782828e-05,
+   "logloss_trajectory": 2.473002690091308e-06,
+   "gap": 1.043306690169152e-05
+  },
+  {
+   "width": 128,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.023311291644326,
+   "logloss_trajectory": 2.8891996549360536e-06,
+   "gap": 1.0233084024446713
+  },
+  {
+   "width": 128,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0266512006431625,
+   "logloss_trajectory": 2.6111594484592667e-06,
+   "gap": 1.026648589483714
+  },
+  {
+   "width": 128,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0325534261070708,
+   "logloss_trajectory": 2.704388787503964e-06,
+   "gap": 1.0325507217182832
+  },
+  {
+   "width": 256,
+   "hidden_fault": false,
+   "seed": 0,
+   "logloss_record": 9.983603911356479e-06,
+   "logloss_trajectory": 1.018133939241341e-06,
+   "gap": 8.965469972115137e-06
+  },
+  {
+   "width": 256,
+   "hidden_fault": false,
+   "seed": 1,
+   "logloss_record": 1.0441034415557083e-05,
+   "logloss_trajectory": 1.7489545673270372e-06,
+   "gap": 8.692079848230046e-06
+  },
+  {
+   "width": 256,
+   "hidden_fault": false,
+   "seed": 2,
+   "logloss_record": 9.07620927443823e-06,
+   "logloss_trajectory": 1.3688042261124417e-06,
+   "gap": 7.707405048325788e-06
+  },
+  {
+   "width": 256,
+   "hidden_fault": true,
+   "seed": 0,
+   "logloss_record": 1.0303640668049394,
+   "logloss_trajectory": 1.3593843312916433e-06,
+   "gap": 1.030362707420608
+  },
+  {
+   "width": 256,
+   "hidden_fault": true,
+   "seed": 1,
+   "logloss_record": 1.0363940203754065,
+   "logloss_trajectory": 1.7365973242871857e-06,
+   "gap": 1.0363922837780821
+  },
+  {
+   "width": 256,
+   "hidden_fault": true,
+   "seed": 2,
+   "logloss_record": 1.0312803916251276,
+   "logloss_trajectory": 1.471267758912598e-06,
+   "gap": 1.0312789203573687
+  }
+ ]
+}
