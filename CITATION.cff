@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper."
-title: "Navigational Intelligence: An Information-Theoretic Limit on What AI Can Learn from Published Research"
+title: "Navigational Intelligence: When Do Process Traces Carry Information Beyond Outcomes?"
 authors:
   - family-names: Sahraei
     given-names: Moein
