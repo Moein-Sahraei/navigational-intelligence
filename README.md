@@ -2,9 +2,10 @@
 
 Code for the paper
 
-> **Navigational Intelligence: An Information-Theoretic Limit on What AI Can Learn from Published Research**
+> **Navigational Intelligence: When Do Process Traces Carry Information Beyond Outcomes?**
+> Under review at *Array* (Elsevier).
 > Moein Sahraei, Department of Physics, Razi University, Kermanshah, Iran
-> Preprint (all versions): [doi:10.5281/zenodo.21480329](https://doi.org/10.5281/zenodo.21480329)
+> Preprint (all versions): [doi:10.5281/zenodo.21480329](https://doi.org/10.5281/zenodo.23963518)
 
 ![The idea in one picture: the path with reasons, the published record, and the next problem](figures/one_picture.png)
 
